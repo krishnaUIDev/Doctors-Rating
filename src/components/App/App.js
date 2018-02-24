@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import MiniDrawer from '../Top-Nav/index';
+import ButtonAppBar from '../Top-Nav/index';
+import Home from '../Home/index';
 class App extends Component {
   render() {
     return (
     <div>
-         <MiniDrawer />
+         <ButtonAppBar />
+         <Home />
     </div>
     );
   }
